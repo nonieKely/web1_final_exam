@@ -64,9 +64,15 @@ a {
     font-size: 0.9em;
     
 }
+.navbar-button {
+    transition: all 0.2s ease;
+  }
 
-a:hover{
-    border-bottom: 1px solid aliceblue;
+.navbar-button:hover{
+    /*border-bottom: 1px solid aliceblue;*/
+    scale: 1.5;
+    /*transition: all  0.2s ease;*/
+    color: chartreuse;
 }
 
 
