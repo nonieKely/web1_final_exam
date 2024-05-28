@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,37 +8,112 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/53791f77b9.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
-    <script src="main.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <script src="main.js" defer></script>
 </head>
+
 <body>
     <div class="appear first_index">
         <img src="../images/Logosansfond.svg" alt="">
     </div>
+    <nav class="navbar">
+        <img src="../images/Logosansfond.svg" alt="" class="logo">
+        <div class="links">
+            <a href="">A propos</a>
+            <a href="">Nos chambres</a>
+            <a href="">Nos services</a>
+        </div>
+        <a href="" class="facebook_page">
+            <i class="fa-brands fa-square-facebook fa-2xl" style="color: rgb(118, 197, 81);"></i>
+        </a>
+    </nav>
     <header>
-        <nav class="navbar">
-            <img src="../images/Logosansfond.svg" alt="" class="logo">
-            <div class="links">
-                <a href="">A propos</a>
-                <a href="">Nos chambres</a>
-                <a href="">Nos services</a>
-                
-            </div>
-            <a href="" class="facebook_page">
-                <i class="fa-brands fa-square-facebook fa-2xl" style="color: rgb(118, 197, 81);"></i>
-            </a>
-        </nav>
-    </header>
-
-    <main>
         <h1>Le Lotus Bungalow</h1>
         <p>l'ultime escapade à Foulpointe pour des souvenirs de vacances qui dureront toute une vie.</p>
 
         <button>
             <p>Reservez dès maintenant</p>
         </button>
+    </header>
+    <main>
+        <div id="nos-services-container">
+            <div id="nos-services-intro">
+                <h2>
+                    Voici ce que nous pouvons vous proposer:
+                </h2>
+                <div id="choice-container">
+                    <a href="#nos-services-container" class="choice" id="nos-plats">
+                        Nos Plats
+                    </a>
+                    <a href="#activités-intro" class="choice" id="activités">
+                        Activités
+                    </a>
+                </div>
+            </div>
+            <div id="menu-container">
+                <div id="menu-intro">
+                    <h3>
+                        Explorez nos menus savoureux:
+                        <i class="fa-solid fa-times fa-2xl" style="color: chartreuse;" id="close-button"></i>
+                    </h3>
+                    <p3>
+                        préparés avec soin par notre équipe de chefs talentueux
+                    </p3>
+                </div>
+                <div id="picture-of-menu">
+                    <img src="../images/EXTERIEUR_07.JPG" alt="" class="picture-1">
+                    <div class="main-width-container">
+                        <div class="width-container">
+                            <img src="../images/EXTERIEUR_01.JPG" alt="" class="little-picture">
+                            <img src="../images/EXTERIEUR_05.JPG" alt="" class="big-picture">
+                        </div>
+                        <div class="width-container">
+                            <img src="../images/EXTERIEUR_07.JPG" alt="" class="big-picture">
+                            <img src="../images/EXTERIEUR_11.JPG" alt="" class="little-picture">
+                        </div>
+                    </div>
+
+                    <div class="height-container">
+                        <img src="../images/EXTERIEUR_15.JPG" alt="" class="height-picture">
+                        <img src="../images/308730508_596184905544179_4682401747476039275_n.jpg" alt=""
+                            class="height-picture">
+                    </div>
+                </div>
+            </div>
+            <div id="activités-container">
+                <div id="activités-intro">
+                    <h3>
+                        Explorez nos activités:
+                        <i class="fa-solid fa-times fa-2xl" style="color: chartreuse;" id="close-button2"></i>
+                    </h3>
+                    <p3>
+                        préparés avec soin par notre équipe de chefs talentueux
+                    </p3>
+                </div>
+                <div id="picture-of-menu">
+                    <img src="../images/EXTERIEUR_07.JPG" alt="" class="picture-1">
+                    <div class="main-width-container">
+                        <div class="width-container">
+                            <img src="../images/EXTERIEUR_01.JPG" alt="" class="little-picture">
+                            <img src="../images/EXTERIEUR_05.JPG" alt="" class="big-picture">
+                        </div>
+                        <div class="width-container">
+                            <img src="../images/EXTERIEUR_07.JPG" alt="" class="big-picture">
+                            <img src="../images/EXTERIEUR_11.JPG" alt="" class="little-picture">
+                        </div>
+                    </div>
+
+                    <div class="height-container">
+                        <img src="../images/EXTERIEUR_15.JPG" alt="" class="height-picture">
+                        <img src="../images/308730508_596184905544179_4682401747476039275_n.jpg" alt=""
+                            class="height-picture">
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 </body>
+
 </html>
