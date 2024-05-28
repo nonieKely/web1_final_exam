@@ -193,6 +193,7 @@ header button p {
     width: 100dvw;
     border: 1px solid red;
     position: relative;
+    z-index: 3000;
 }
 
 #nos-services-container:after {
@@ -216,10 +217,14 @@ header button p {
     text-align: center;
     justify-content: space-evenly;
     align-items: center;
+    z-index: 3000;
+
 }
 
 h2 {
     font-size: 3rem;
+    z-index: 3000;
+
 }
 
 #choice-container {
@@ -232,6 +237,8 @@ h2 {
     text-align: center;
     align-items: center;
     justify-content: space-between;
+    z-index: 3000;
+
 }
 
 .choice {
@@ -246,6 +253,8 @@ h2 {
     border-radius: 20px;
     transition: all 0.3s ease;
     color: blueviolet;
+    z-index: 3000;
+
 }
 
 .choice::before,
@@ -294,6 +303,8 @@ h2 {
     box-shadow: 5px 5px 20px black;
     animation-duration: 1s;
     animation-name: proposition-appear;
+    z-index: 3000;
+
 }
 
 #menu-intro,
@@ -305,6 +316,8 @@ h2 {
     height: 20%;
     justify-content: space-evenly;
     text-align: left;
+    z-index: 3000;
+
 }
 
 h3 {
