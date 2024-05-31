@@ -1,24 +1,25 @@
 const close_button = document.getElementById('close-button');
-const close_button2 = document.getElementById('close-button2');
+const nos_plats_container = document.getElementById('nos-plats-container');
+const nos_plats = document.getElementById('nos_plats');
 
-const menu_container = document.getElementById('menu-container');
-const nos_plats = document.getElementById('nos-plats');
-const activites_container = document.getElementById('activités-container');
-const activites =document.getElementById('activités');
-
-close_button.addEventListener('click', function() { 
-    menu_container.style.display = 'none';
+close_button.addEventListener('click', function () {
+    nos_plats_container.style.display = 'none';
 });
 
-nos_plats.addEventListener('click',function(){
-    menu_container.style.display = 'flex';
+nos_plats.addEventListener('click', function () {
+    nos_plats_container.style.display = 'flex';
 });
+
+
+const activities_container = document.getElementById('activities-containe');
+const close_button2 = document.getElementById('close_button2');
+const nos_activities = document.getElementById('nos_activities');
 
 
 close_button2.addEventListener('click',function(){
-    activites_container.style.display = 'none';
+    activities_container.style.display='none';
 });
 
-activites.addEventListener('click',function(){
-    activites_container.style.display = 'flex';
+nos_activities.addEventListener('click', function () {
+    activities_container.style.display = 'flex';
 });
